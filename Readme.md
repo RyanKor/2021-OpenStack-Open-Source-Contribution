@@ -28,6 +28,11 @@
   
   - Do trouble shooting and connect network in the deployed environment; Cafe 24 VM
   
+- [2021.08.17 Team Meeting on Google Meet]()
+
+  - [Second Week Team Assignment](https://play.openstack-kr.org/pages/viewpage.action?pageId=12943414)
+
+- [2021.08.21 Sprint Day in Open Up]()
   
 ## 3. Error Logs (Setup : Cafe 24 Cloud)
 
