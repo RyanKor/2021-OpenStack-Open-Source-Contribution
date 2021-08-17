@@ -20,6 +20,9 @@
 
 - [2021.08.07 Team Meeting on Google Meet](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-1%EC%A3%BC%EC%B0%A8-%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EA%B8%B0%EA%B0%84-%EC%A7%84%ED%96%89-631c88d7dd58)
 
+
+  - [First Week Team Assignment](https://play.openstack-kr.org/pages/viewpage.action?pageId=12943370)
+
   - Mentors will explain the structure of OpenStack and let us know how to install OpenStack with devStak for two hours.
 
 - [2021.08.14 Sprint Day in Open Up](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-1%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%98%A4%ED%94%88%EC%8A%A4%ED%83%9D-%EC%84%A4%EC%B9%98-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%98%EA%B8%B0-be44aed886)
