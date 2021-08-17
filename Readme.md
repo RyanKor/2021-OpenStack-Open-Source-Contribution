@@ -60,13 +60,16 @@
   > \> sudo apt remove python3-pyasn1-modules # remove this in the python packages.
 
 ---
-#### 3. Ubuntu 20.04 & devStack Master Branch, Internet Disconnection Error
+#### 3. Ubuntu 20.04 & devStack Master Branch, `Internet Disconnection Error`
 
 > Error Explanation : There is the internet disconnection error after OpenStack installed in Ubuntu20.04.
+
+<p align=center>
+<img src="https://user-images.githubusercontent.com/40455392/129654755-ae727beb-133e-4ea9-a579-72f8a3b3770c.png" width="600" />
+<p/>
 
 - My team has set up OpenStack with the whole same process of Wallaby, but we cannot use the network after we create a new instance in it.
 
 **Solution**
   - We are still searching the solution why it occurs (we assume we can search iptables with trouble shooting)
-
 
