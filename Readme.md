@@ -89,5 +89,5 @@
 <img src="https://user-images.githubusercontent.com/40455392/130330257-5d39fb80-4cf7-4055-bcd8-98c7bce04b2f.png" width="600" />
 <p/>
 
-- when you see this error even though all the resources of openstack has enough space, the main reason of this error will be VCPU capacity.
+- when you see this error even though all the resources of openstack has enough space, the main reason of this error will be VCPU capacity in hypervisor menu.
 - you should delete all volume & instances you don't use and re-create instance.
