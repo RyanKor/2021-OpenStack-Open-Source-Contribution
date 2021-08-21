@@ -76,3 +76,18 @@
 **Solution**
   - We are still searching the solution why it occurs (we assume we can search iptables with trouble shooting)
 
+---
+#### 4. Exhausted all hosts available for retrying build failures for instance `OpenStack Resource Error`
+
+> Error Explanation : Exceed the maximum resource of openstack when you make an instance.
+
+**Solution**
+
+- See the image below.
+
+<p align=center>
+<img src="https://user-images.githubusercontent.com/40455392/130330257-5d39fb80-4cf7-4055-bcd8-98c7bce04b2f.png" width="600" />
+<p/>
+
+- when you see this error even though all the resources of openstack has enough space, the main reason of this error will be VCPU capacity.
+- you should delete all volume & instances you don't use and re-create instance.
