@@ -31,11 +31,11 @@
   
   - Do trouble shooting and connect network in the deployed environment; Cafe 24 VM
   
-- [2021.08.17 Team Meeting on Google Meet]()
+- [2021.08.17 Team Meeting on Google Meet](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-2%EC%A3%BC%EC%B0%A8-openstack-cli-%EC%99%80-%EC%B9%9C%ED%95%B4%EC%A7%80%EA%B8%B0-133974cd1da9)
 
   - [Second Week Team Assignment](https://play.openstack-kr.org/pages/viewpage.action?pageId=12943414)
 
-- [2021.08.21 Sprint Day in Open Up]()
+- 2021.08.21 Sprint Day in Open Up : No Schedule
   
 ## 3. Error Logs (Setup : Cafe 24 Cloud)
 
