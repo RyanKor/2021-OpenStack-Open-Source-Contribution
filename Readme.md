@@ -36,6 +36,19 @@
   - [Second Week Team Assignment](https://play.openstack-kr.org/pages/viewpage.action?pageId=12943414)
 
 - 2021.08.21 Sprint Day in Open Up : No Schedule
+
+- 2021.08.24 2nd Team Meeting
+
+  - We have deployed our team website.
+  - [Team Blog Site](https://openstack-kr-contribution-academy-2021.readthedocs.io/ko/latest/index.html)
+
+- 2021.08.28 2nd Sprint Day in Open Up
+
+  - [3rd Week Team Assignment](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%ED%86%A4-3%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%94%84%EB%A6%B0%ED%8A%B8-%EB%8D%B0%EC%9D%B4-master-challenge-%EB%A7%88%EC%A7%80%EB%A7%89-%EC%A3%BC%EA%B0%84-d71cc5430c55)
+
+  - This is the last week of Master Challenge period.
+
+  - The main stage will begin at September.
   
 ## 3. Error Logs (Setup : Cafe 24 Cloud)
 
