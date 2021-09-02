@@ -117,7 +117,7 @@
 - See the image below.
 
 <p align=center>
-<img src="https://user-images.githubusercontent.com/40455392/131870925-a6593d8b-0ecb-4015-886e-4a0a5bcc6e09.png" width="600" />
+<img src="https://user-images.githubusercontent.com/40455392/131870925-a6593d8b-0ecb-4015-886e-4a0a5bcc6e09.png" width="1000" />
 <p/>
 
 - I have setup `:orphan:` the child node before commit.
