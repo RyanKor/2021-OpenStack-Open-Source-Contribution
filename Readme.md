@@ -104,3 +104,21 @@
 
 - when you see this error even though all the resources of openstack has enough space, the main reason of this error will be VCPU capacity in hypervisor menu.
 - you should delete all volume & instances you don't use and re-create instance.
+
+
+---
+#### 5. Tox(OpenStack Documentation Tool, Sphinx Test Software) Error
+
+> Error Explanation : `document isn't included in any toctree`
+> There were several conflicts when I executed tox to commit the whole sphinx docs.
+
+**Solution**
+
+- See the image below.
+
+<p align=center>
+<img src="https://user-images.githubusercontent.com/40455392/131870925-a6593d8b-0ecb-4015-886e-4a0a5bcc6e09.png" width="600" />
+<p/>
+
+- I have setup `:orphan:` the child node before commit.
+- It enables the index.rst file to include the file with `:orphan:` code and recognize the whole documentation when CI works.
