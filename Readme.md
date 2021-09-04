@@ -49,6 +49,14 @@
   - This is the last week of Master Challenge period.
 
   - The main stage will begin at September.
+
+- 2021.09.04 [4th Sprint Day in Online](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%ED%86%A4-4%EC%A3%BC%EC%B0%A8-%ED%8C%80-%EC%8A%A4%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%B0%B8%EC%97%AC-%ED%9B%84%EA%B8%B0-%EB%B3%B8%EA%B2%A9%EC%A0%81%EC%9D%B8-%EC%BB%A4%EB%AF%B8%ED%84%B0%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0-fb56d0cd552c)
+
+  - Set up Gerrit & Storyboard
+
+  - Practice Code Review with git-review module
+
+  - 2nd Team PR to OpenStack being pushed.
   
 ## 3. Error Logs (Setup : Cafe 24 Cloud)
 
