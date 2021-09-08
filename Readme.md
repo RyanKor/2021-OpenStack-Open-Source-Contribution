@@ -58,6 +58,15 @@
 
   - 2nd Team PR to OpenStack being pushed.
   
+  
+- 2021.09.07 [5th Team Meeting in Online]()
+
+  - Gerrit & Storyboard Practice
+
+  - Find Bug Mentees want to commit
+
+
+
 ## 3. Error Logs (Setup : Cafe 24 Cloud)
 
 #### 1. Ubuntu 20.04 Python3 `simplejson` Package Error
