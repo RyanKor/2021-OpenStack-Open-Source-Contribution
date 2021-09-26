@@ -5,7 +5,7 @@
 
 <p align=center>
 <img src="https://user-images.githubusercontent.com/40455392/129478937-548a7ad8-ff80-41ed-aee7-c41cd0806dce.png" width="600" />
-<p/>
+</p>
 
 ## 1. Work Flow
 
@@ -59,11 +59,19 @@
   - 2nd Team PR to OpenStack being pushed.
   
   
-- 2021.09.07 [5th Team Meeting in Online]()
+- 2021.09.07 ~ 2021.09.18 [5th Team Meeting in Online & 5th Sprint Day](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-5%EB%B2%88%EC%A7%B8-%EC%8A%A4%ED%94%84%EB%A6%B0%ED%8A%B8-%ED%99%9C%EB%8F%99-%EB%B3%B8%EA%B2%A9-%EC%98%A4%ED%94%88%EC%8A%A4%ED%83%9D-%EB%B2%84%EA%B7%B8-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0-5b1d63faf2cb)
 
   - Gerrit & Storyboard Practice
 
-  - Find Bug Mentees want to commit
+  - Find bug mentees want to commit
+
+  - Check commit history and edit test codes in Openstack
+
+- 2021.09.23 ~ 2021.09.25 [6th Sprint Day](https://equus3144.medium.com/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-6%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%94%84%EB%A6%B0%ED%8A%B8-%ED%8C%80-%EB%82%B4-%EC%86%8C%EA%B7%B8%EB%A3%B9-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0-%EC%98%81%EB%AC%B8%EC%84%9C-%EB%B2%88%EC%97%AD-%EC%A7%84%ED%96%89-%EC%95%88%EB%82%B4-dc01fb8ba43b)
+
+  - My first bug report with Gerrit
+
+  - Fix worng letters in python-openstackclient (Second bug report)
 
 
 
@@ -99,7 +107,7 @@
 
 <p align=center>
 <img src="https://user-images.githubusercontent.com/40455392/129654755-ae727beb-133e-4ea9-a579-72f8a3b3770c.png" width="600" />
-<p/>
+</p>
 
 - My team has set up OpenStack with the whole same process of Wallaby, but we cannot use the network after we create a new instance in it.
 
@@ -117,7 +125,7 @@
 
 <p align=center>
 <img src="https://user-images.githubusercontent.com/40455392/130330257-5d39fb80-4cf7-4055-bcd8-98c7bce04b2f.png" width="600" />
-<p/>
+</p>
 
 - when you see this error even though all the resources of openstack has enough space, the main reason of this error will be VCPU capacity in hypervisor menu.
 - you should delete all volume & instances you don't use and re-create instance.
@@ -135,7 +143,37 @@
 
 <p align=center>
 <img src="https://user-images.githubusercontent.com/40455392/131870925-a6593d8b-0ecb-4015-886e-4a0a5bcc6e09.png" width="1000" />
-<p/>
+</p>
 
 - I have setup `:orphan:` the child node before commit.
 - It enables the index.rst file to include the file with `:orphan:` code and recognize the whole documentation when CI works.
+
+
+#### 6. Bug Report with python-openstackclient; openstack configuration show --mask
+
+> Error Explanation : `openstack configuration show --mask` does not masking password & token in the console
+> Devstack, Test Codes, and debug settings mask these things without any errors, but global & environmental configurations not
+
+<p align=center>
+<img src="https://miro.medium.com/max/700/1*koFqGL0lwFXiXRmmAoJ0NA.png" width="1000" />
+</p>
+
+<p align=center>
+<img src="https://miro.medium.com/max/700/1*qbYyICPuCSHF8QS6IsX1Sw.png" width="1000" />
+</p>
+
+**Solution**
+
+- See the image below.
+
+<p align=center>
+<img src="https://miro.medium.com/max/700/1*xDIsKuqGLBoTn0xbcCogoA.png" width="1000" />
+</p>
+
+- I have changed several codes in [configuration.py](https://review.opendev.org/c/openstack/python-openstackclient/+/811005).
+
+- It does not make erros in Zuul CI & any test codes.
+
+- I am waiting code merge from the project owner.
+
+- You can check [the specific error description in Story Board](https://storyboard.openstack.org/#!/story/2008816)
