@@ -71,7 +71,7 @@
 
   - My first bug report with Gerrit
 
-  - Fix worng letters in python-openstackclient (Second bug report)
+  - Fix worng letters in python-openstackclient ([Second bug report](https://review.opendev.org/c/openstack/python-openstackclient/+/811008))
 
 
 
