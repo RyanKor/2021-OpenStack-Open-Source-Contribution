@@ -2,6 +2,9 @@
 
 ## My Team with Open Source Contribution
 
+-> [Team Project Repo](https://github.com/openstack-kr/contribution-academy-2021)
+
+This repo is for recording my team's work and personally solved errors.
 
 <p align=center>
 <img src="https://user-images.githubusercontent.com/40455392/129478937-548a7ad8-ff80-41ed-aee7-c41cd0806dce.png" width="600" />
